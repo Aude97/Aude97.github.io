@@ -8,22 +8,90 @@
      height: 500px;
 }
 .trans{
-	height: center;
-	width: center;
+	height: 500px;
+	width: 1200px;
+	background-position: center;
+	background-image: cover
 }
 
 .gold{
-	height: center;
-	width: center;
+	height: 500px;
+	width: 1200px;
+	background-position: center;
+	background-image: cover
 }
+
 .pacif{
-	height: center;
-	width: center;
+	height: 500px;
+	width: 1200px;
+	background-position: center;
+	background-image: cover
 }
 
 h1{
 	 background-position: center;
 	font-family: 'Bungee', cursive;
     padding: 70px;
+
 }
 
+
+.image {
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.box_white {
+  background: white;
+  background-position: center;
+  border: solid 2px grey ;
+
+
+}
+
+h2{ 
+	font-size: 20px;
+	font-style: bold
+
+ }
+
+ p{
+ 	font-size: 10px
+ }
+
+.typeform-widget{
+	border:solid 1px grey;
+	margin: : 100px 
+}
+
+.nos_coordonées{
+	margin: 100px
+}
+
+ .footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 20px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
