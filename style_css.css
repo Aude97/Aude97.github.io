@@ -70,7 +70,13 @@ h2{
 	margin: 100px
 }
 
-
+.card{
+	height: 200px;
+	width: 200px;
+	margin: 50px;
+	position: center;
+	border: white;
+}
 
 .footer {
   background: #F4F4F4;
@@ -98,3 +104,4 @@ h2{
 .footer .fa-heart {
   color: #D23333;
 }
+
