@@ -3,105 +3,93 @@
 	 width: 60px;
      height: 60px;
 }
-.carousel-inner{
+.carousel-indicator{
 	 width: cover;
      height: 500px;
      
 }
-.trans{
-	height: 500px;
-	width: 1200px;
-	background-position: center;
-	background-image: cover
+.d-block-w-100{
+	 height: 500px;
+	 width: 1200px;
+	 background-position: center;
+	 background-image: cover
 }
 
-.gold{
-	height: 500px;
-	width: 1200px;
-	background-position: center;
-	background-image: cover
-}
-
-.pacif{
-	height: 500px;
-	width: 1200px;
-	background-position: center;
-	background-image: cover
-}
 
 h1{
 	 background-position: center;
-	font-family: 'Bungee', cursive;
-    padding: 70px;
+	 font-family: 'Bungee', cursive;
+     padding: 70px;
 
 }
 
 
 .image {
-  height: 200px;
-  object-fit: cover;
-  padding: 10px;
+     height: 200px;
+     object-fit: cover;
+     padding: 10px;
 }
 
 .box_white {
-  background: white;
-  background-position: center;
-  border: solid 2px grey ;
-
+     background: white;
+     background-position: center;
+     border: solid 0.25px grey ;
 
 }
 
 h2{ 
-	font-size: 20px;
-	font-style: bold
+	 font-size: 20px;
+	 font-style: bold
 
  }
 
+h5{
+     font-size: 17px
+}
  p{
- 	font-size: 10px
+ 	 font-size: 10px
  }
 
 .typeform-widget{
-	border:solid 1px grey;
-	margin: : 100px 
+	 border:solid 1px grey;
+	 margin: : 100px 
 }
 
-.nos_coordonées{
-	margin: 100px
-}
+
 
 .card{
-	height: 200px;
-	width: 200px;
-	margin: 50px;
-	position: center;
-	border: white;
+	 height: 200px;
+	 width: 200px;
+	 margin-bottom : 30px;
+	 position: center;
+	 border: white;
 }
 
+
 .footer {
-  background: #F4F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+     background: #F4F4F4;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 100px;
+     padding: 0px 50px;
+     color: rgba(0,0,0,0.3);
 }
 .footer-links {
-  display: flex;
-  align-items: center;
+     display: flex;
+     align-items: center;
 }
 .footer-links a {
-  color: grey;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
+     color: grey;
+     opacity: 0.15;
+     text-decoration: none;
+     font-size: 24px;
+     padding: 0px 10px;
 }
 .footer-links a:hover {
-  opacity: 1;
+     opacity: 1;
 }
 .footer .fa-heart {
-  color: #D23333;
+     color: #D23333;
 }
 
