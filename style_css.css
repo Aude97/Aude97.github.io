@@ -3,11 +3,13 @@
 	 width: 60px;
      height: 60px;
 }
+
 .carousel-indicator{
 	 width: cover;
      height: 500px;
      
 }
+
 .d-block-w-100{
 	 height: 500px;
 	 width: 1200px;
@@ -15,14 +17,11 @@
 	 background-image: cover
 }
 
-
 h1{
 	 background-position: center;
 	 font-family: 'Bungee', cursive;
      padding: 70px;
-
 }
-
 
 .image {
      height: 200px;
@@ -41,24 +40,20 @@ h2{
 	 font-size: 20px;
 	 font-style: bold
 
- }
+}
 
 h5{
      font-size: 17px
 }
- p{
+
+p{
  	 font-size: 10px
- }
+}
 
 .typeform-widget{
 	 border:solid 1px grey;
 	 margin: : 100px 
 }
-
-
-
-
-
 
 .footer {
      background: #F4F4F4;
