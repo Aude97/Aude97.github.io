@@ -42,6 +42,12 @@ h2{
 
 }
 
+h3{
+	font-size: 25px;
+	font-style: bold;
+	color: red;
+}
+
 h5{
      font-size: 17px
 }
