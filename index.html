@@ -21,6 +21,17 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+    	 <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-circle"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Mes Infos</a>
+          <a class="dropdown-item" href="#">Mes Favoris</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Mes Commandes</a>
+        </div>
+        </li>
     	<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Catalogue
@@ -47,16 +58,18 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Mon Compte
+          Connexion
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Mes Infos</a>
-          <a class="dropdown-item" href="#">Mes Favoris</a>
+        	<!-- Bouton modal inclu dans le dropdown -->
+          <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal">Déja Membre</a>
+          <a class="dropdown-item" href="#">S'enregistrer</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Mes Commandes</a>
+          <a class="dropdown-item" href="#">Besoin d'aide ?</a>
         </div>
       </li>
-      
+      </li>
+    </ul>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -64,7 +77,38 @@
     </form>
   </div>
  </nav>
-
+ 
+ <!-- Modal du dropdown de la nav bar -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Connexion</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Adresse Mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse Mail">
+        <small id="emailHelp" class="form-text text-muted">On ne partage votre adresse mail avec personne.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Mot de Passe</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de Passe">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+       </div>
+       <button type="submit" class="btn btn-secondary">Valider</button>
+    </form>
+     </div>
+    </div>
+  </div>
+ </div>
 
 </head>
 
