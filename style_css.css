@@ -45,7 +45,7 @@ h2{
 h3{
 	font-size: 25px;
 	font-style: bold;
-	color: red;
+	color: black;
 }
 
 h5{
@@ -70,10 +70,12 @@ p{
      padding: 0px 50px;
      color: rgba(0,0,0,0.3);
 }
+
 .footer-links {
      display: flex;
      align-items: center;
 }
+
 .footer-links a {
      color: grey;
      opacity: 0.15;
@@ -81,9 +83,11 @@ p{
      font-size: 24px;
      padding: 0px 10px;
 }
+
 .footer-links a:hover {
      opacity: 1;
 }
+
 .footer .fa-heart {
      color: #D23333;
 }
